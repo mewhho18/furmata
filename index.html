@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+	<head>
+		 <meta charset="UTF-8">
+		 <link rel="shortcut icon" href="img/logo.jpg">
+		<title>Furmata A cappella</title>
+		<!-- hot link to Bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+        <!-- our own stylesheet for overrides -->
+        <link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>University of Washington presents...</h1>
+			<a href="index.html"><img class="logo" src="img/logo.jpg" alt="Furmata Logo"></a>
+			<nav>
+				<ol>
+					<li>About</li>
+					<li>Members</li>
+					<li>Gallery</li>
+					<li>Youtube</li>
+				</ol>
+			</nav>
+			 <div id="furmata-carousel" class="carousel slide">
+                                 <!-- slide indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#furmata-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#furmata-carousel" data-slide-to="1"></li>
+                                <li data-target="#furmata-carousel" data-slide-to="2"></li>
+                                <li data-target="#furmata-carousel" data-slide-to="3"></li>
+                            </ol>
+
+                                <!-- slides --> 
+                            <div class="carousel-inner">
+                                <!-- slide -->
+                                <div class="item active">
+                                    <img src="img/first-performance.jpg" alt="Chris Elliot Fundraiser">
+                                    <div class="carousel-caption">
+                                        <p>Chris Elliot Fundraiser 2013</p>
+                                    </div>
+                                </div>
+                                <!-- slide -->
+                                <div class="item">
+                                    <img src="img/spring-concert.jpg" alt="Spring Concert 2013">
+                                    <div class="carousel-caption">
+                                        <p>Spring Concert 2013</p>
+                                    </div>
+                                </div>
+                                <!-- slide -->
+                                <div class="item">
+                                    <img src="img/winter-concert.jpg" alt="Winter Concert 2013">
+                                    <div class="carousel-caption">
+                                        <p>Winter Concert 2013</p>
+                                    </div>
+                                </div>
+                                <!-- slide -->
+                                <div class="item">
+                                    <img src="img/ICCA.jpg" alt="ICCA 2013">
+                                    <div class="carousel-caption">
+                                        <p>ICCA 2013</p>
+                                    </div>
+                                </div>
+                            </div> <!-- .slides -->
+
+                                 <!-- left-right controls -->
+                            <a class="left carousel-control" href="#furmata-carousel" data-slide="prev">
+                                <span class="icon-prev"></span>
+                            </a>
+                            <a class="right carousel-control" href="#furmata-carousel" data-slide="next">
+                                <span class="icon-next"></span>
+                            </a>
+                        </div>
+                <div class="row">
+				<div class="col-md-6">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col-md-6">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			</div>
+
+		<!-- hot links to Bootstrap JavaScript and jQuery (required by Bootstrap) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+                         <!-- auto-play the carousel -->
+            <script>
+                $('.carousel').carousel();
+            </script>
+	</body>
+</html>
